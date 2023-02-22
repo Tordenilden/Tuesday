@@ -8,6 +8,9 @@ namespace Tuesday.API.Data
     {
         // table reference / handle
         public DbSet<Person> Person { get; set; }
+
+        // hvis jeg glemmer denne, kommer der åbenbart ikke en tabel
+        public DbSet<Car> Car { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);

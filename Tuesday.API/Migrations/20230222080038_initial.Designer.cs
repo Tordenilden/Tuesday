@@ -11,7 +11,7 @@ using Tuesday.API.Data;
 namespace Tuesday.API.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20230221101404_initial")]
+    [Migration("20230222080038_initial")]
     partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
