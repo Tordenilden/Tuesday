@@ -6,7 +6,7 @@
         public int id { get; set; }
         public string name { get; set; }
         public int age { get; set; }
-        List<Car> cars { get; set; }
+        public List<Car> cars { get; set; }//foreign key til car
         public Person()
         {
             cars = new List<Car>();
