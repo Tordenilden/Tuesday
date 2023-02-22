@@ -10,6 +10,8 @@ builder.Services.AddDbContext<DatabaseContext>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// test
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
