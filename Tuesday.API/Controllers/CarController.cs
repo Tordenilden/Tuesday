@@ -102,5 +102,14 @@ namespace Tuesday.API.Controllers
             //return tt;
             return null;
         }
+
+        //[HttpPost("test22")]
+        //public async Task<ActionResult<List<Car>>> eks25()
+        //{
+        //    string sql = "her er der noget hardcode data";
+        //    Car myCar = new Car();
+        //    myCar.Brand = "Cacao";
+        //    return null;
+        //}
     }
 }
