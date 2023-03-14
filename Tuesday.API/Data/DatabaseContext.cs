@@ -11,6 +11,7 @@ namespace Tuesday.API.Data
 
         // hvis jeg glemmer denne, kommer der åbenbart ikke en tabel
         public DbSet<Car> Car { get; set; }
+        public DbSet<Animal> Animal { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
